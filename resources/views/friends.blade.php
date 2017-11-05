@@ -87,7 +87,6 @@
 		var callback = (rsp) => {
 			totalrows = rsp.totalrows;
 			friendlist = rsp.flist;
-			console.log(rsp);
 			offset = offset + rsp.list.length;
 
 			if(!(offset < totalrows))
